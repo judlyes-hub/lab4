@@ -12,7 +12,7 @@ int main()
 { 
     using namespace LeeJuha2630018;
     bookStore bs1;bs1.print();
-    bookStore bs2{book{11, 0}, true}; bs2.print();
+    bookStore bs2{book{121, 0}, true}; bs2.print();
     
     if (compareBook(bs1.getBook(), bs2.getBook()))
        std::cout << "same\n";
